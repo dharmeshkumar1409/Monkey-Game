@@ -104,7 +104,7 @@ function draw() {
   monkey.collide(ground);
   
   drawSprites();
-  fill("black");
+  fill("white");
   textSize(20);
   text("Score: "+ score, 550,50);
 }
